@@ -1,0 +1,154 @@
+
+body{
+    background:#fff;
+    color:#666666;
+    font-family:"Open Sans";
+}
+    a{
+    color:#18d26e;
+    transition: 0.5s;
+}
+
+a:hover, a:active, a:focus{
+color:#18d36e;
+outline:none;
+text-decoration:none;
+}
+
+p{
+    padding: 0;
+    margin:0 0 30px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family:"Montserat", sans-serif;
+font-weight: 400;
+margin: 0 0 20px 0;
+padding: 0;
+}
+
+/*Back to top button*/
+.back-to-top{
+    position:fixed;
+    display: none;
+    background:#18d26e;
+    color:#fff;
+    display: inline-block;
+    width:44px ;
+    height: 44px;
+    text-align:center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom:15px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+
+.back-to-top{
+    padding-top: 12px;
+    color: #fff;
+}
+#header{
+    padding:30px 0;
+    height: 92px;
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    transition:all 0.5s;
+    z-index: 997;
+}
+
+#header.header-scrolled{
+    background:rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    height: 72px;
+    transition: all 0.5s;
+}
+#header #logo{
+    float: left;
+}
+#header #logo h1{
+    font-size:34px;
+    margin:0;
+    padding:0;
+    line-height:1;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#header #logo h1 a,#header #logo h1 a:hover{
+color:#fff;
+padding-left: 10px;
+border-left:4px solid #18d26e;
+}
+#header #logo img{
+    padding: 0;
+    margin: 0;
+}
+#intro{
+    display:table;
+    width:100%;
+    height:100vh;
+    background:#000;
+}
+#intro .caousel-item{
+    width:100%;
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#intro .caousel-item::before{
+    content:'';
+    background-color:rgba(0,0,0,0.7);
+    position:absolute;
+    height: 100%;
+    width:100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+#intro .caousel-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+#intro .caousel-content{
+    text-align: center;
+}
+#intro h2{
+    color:#fff;
+    margin-bottom:30px;
+    font-size:48px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

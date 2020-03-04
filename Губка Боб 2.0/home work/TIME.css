@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    width: 466.54px;
+    height: 250px;
+    background-color: brown;
+    color: coral;
+    animation: move 2s ease-in infinite alternate ;
+}
+@keyframes move{
+    from{
+        margin-left: 0px;
+        
+    }
+    to{
+        margin-left: 600px;
+    }
+}
